@@ -11,6 +11,6 @@ func main() {
 	}
 	defer file.Close()
 
-	file.WriteString("Hello \n")
+	file.WriteString("Hello")
 	file.WriteString("output.txt")
 }
