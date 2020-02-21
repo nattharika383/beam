@@ -11,5 +11,5 @@ func walkFn(path string, info os.FileInfo, err error) error {
 	return nil
 }
 func main() {
-	filepath.Walk("c:/", walkFn)
+	filepath.Walk("c:/test", walkFn)
 }
